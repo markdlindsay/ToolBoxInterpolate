@@ -1,0 +1,13 @@
+[general]
+name=Point Interpolation Toolbox
+qgisMinimumVersion=3.22
+description=Processing toolbox with many ways to interpolate point data to rasters: IDW, nearest neighbour, moving window statistics, TIN, radial basis functions / splines, trend surfaces and kriging, plus variogram analysis, cross-validation and raster gap filling by kriging or conditional simulation.
+about=Adds a "Point Interpolation" provider to the Processing Toolbox. All methods run on numpy, which ships with QGIS; scipy is used automatically for faster neighbour searches when available. Every grid algorithm shares the same inputs (point layer, value field or Z, extent, pixel size, optional mask polygons) so methods are easy to compare, and a cross-validation tool scores them against each other.
+version=1.0.0
+author=ToolBoxInterpolate
+email=noreply@example.com
+tags=interpolation,idw,kriging,spline,rbf,tin,variogram,raster,processing,geostatistics
+category=Analysis
+experimental=False
+hasProcessingProvider=yes
+icon=icon.svg
